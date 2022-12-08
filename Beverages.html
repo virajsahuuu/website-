@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Aashirvaad traders</title>
+    <!--font awesone cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
+    
+
+ <!--custon css file link -->
+ <link rel="stylesheet" href="style.css">
+
+ <style>
+    .mySlides {display:none;}
+    </style>
+
+
+
+      
+      
+  
+
+ 
+
+</head>
+<body>
+
+<!--Header section starts -->
+<header>
+    <div class="header1">
+        <a href="#" class="logo"><i class="fas fa-shopping-cart"></i>Aashirvad Traders</a>
+        
+        </form>
+
+       
+
+    </div>
+    <div class="header-2">
+        <div id= "menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+
+            <a href="index.html">home</a>
+            <a href="#Munchies">Munchies</a>
+            <a href="Beverages.html">Bevrages</a>
+            <a href="#cleaning and household">Bathing  essentials</a>
+            <a href="Dairy.html">Dairy </a>
+            <a href="#Foodgrains, oil and masalas"> Foodgrains, oils and masalas</a>
+            <a href="#Contact us"> Contact us</a>
+            
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="logo"><a class="fas fa-shopping-cart"></a>
+            
+    </div>
+    </div>
+</header>
+
+<!--slideshow section starts -->
+
+    
+  </div>
+</div>
+
+<div class="w3-content w3-display-container">
+  
+    <img class="mySlides" src="beverages presentation image 1.png" style="width:100%">
+    <img class="mySlides" src="beverages presentation image 2.png" style="width:100%">
+    <img class="mySlides" src="beverages presentation image 3.png" style="width:100%">
+  
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+  
+<!--slideshow section ends-->
+
+
+
+<!--Product box starts -->
+
+<section class="shop container">
+  
+</section>
+
+<!--Box 1-->
+
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+          <img src="redbull edited image.png" alt="bhujia sev" style="width:28%">
+          
+          <h6>Redbull</h6>
+        <p class="price"> 140₹</p>
+        <button type="button" 
+        class="btn btn-default btn-sm">
+        <span class="glyphicon 
+            glyphicon-shopping-cart">
+        </span>
+        <b> Add to Cart </b>
+    </button>
+    </p>
+        </div>
+        <div class="w3-quarter">
+          <img src="monster energy drink edited image.png" alt="Haldiraam boondi" style="width:28%">
+          
+          <br>
+        </br>
+          <h6>Monster energy drink</h6>
+          <p class="price">110₹</p>
+          <button type="button" 
+          class="btn btn-default btn-sm">
+          <span class="glyphicon 
+              glyphicon-shopping-cart">
+          </span>
+          <b> Add to Cart </b>
+      </button>
+    </p>
+        </div>
+        <div class="w3-quarter">
+          
+          <img src="coke edited image.png" alt="Chiwda" style="width:23%">
+          
+        <br>
+        <br>
+          <h6> Coca cola  </h6>
+        <p class="price">40₹</p>
+        <button type="button" 
+                    class="btn btn-default btn-sm">
+                    
+                    <b> Add to Cart</b>
+                </button>
+            </p>
+        <br>
+        </div>
+        <div class="w3-quarter">
+          <img src="diet coke edited image.png" alt=" oats" style="width:26%">
+          <h6> Diet coke </h6>
+        <p class="price">40₹</p>
+      <button type="btn" 
+                    class="btn btn-default btn-sm">
+                    
+                    <b> Add to Cart </b>
+                </button>
+            </p>
+        </div>
+      </div>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <img src="7 up edited image.png" alt="banana chips" style="width:28%">
+          <h6>Banana Chips </h6>
+          <p class="price">40₹</p>
+          <button type="button" 
+          class="btn btn-default btn-sm">
+          <span class="glyphicon 
+              glyphicon-shopping-cart">
+          </span>
+          <b> Add to Cart </b>
+      </button>
+    </p>
+          </div>
+        <div class="w3-quarter">
+          <img src="pepsi edited image.png" alt="popcorn" style="width:28%">
+          
+          <h6> Pepsi (200ml)</h6>
+          
+          <p class="price">15₹</p>
+          
+     <button type="button" 
+                    class="btn btn-default btn-sm">
+                    <span class="glyphicon 
+                        glyphicon-shopping-cart">
+                    </span>
+    
+                    <b> Add to Cart </b>
+                </button>
+            </p>
+        </div>
+        <div class="w3-quarter">
+          <p><img src="nescafe edited image.png" alt="popcorn" style="width:30%"></p>
+        
+          <h6>Nescafe </h6>
+          <p class="price">30₹</p>
+          
+      <button type="button" 
+                    class="btn btn-default btn-sm">
+                    <span class="glyphicon 
+                        glyphicon-shopping-cart">
+                    </span>
+                    <b> Add to Cart </b>
+                </button>
+            </p>
+        </div>
+        <div class="w3-quarter">
+          <img src="sofit drink edited image.png" alt="Peanut butter " style="width:30%">
+          <h6>Sofit Drink </h6>
+          <p class="price">30₹</p>
+    
+      <button type="button" 
+                    class="btn btn-default btn-sm">
+                    <span class="glyphicon 
+                        glyphicon-shopping-cart">
+                    </span>
+                    
+                    <b> Add to Cart </b>
+                </button>
+            </p>
+        </div>
+      </div>
+
+
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="Beverages page 2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
